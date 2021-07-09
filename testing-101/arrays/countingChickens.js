@@ -17,6 +17,7 @@ When they disagree completely, he gets 0 points.
 const correctNess = (guesses, expected) => {
     let points = 0;
     const guessOptions = ["M", "F", "?"]
+    
     if(guesses.length !== expected.length) return points;
     if(guesses.length === 0 || expected.length === 0) return points;
 
