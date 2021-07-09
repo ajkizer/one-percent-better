@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1625859691795" clover="3.2.0">
-  <project timestamp="1625859691796" name="All files">
-    <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="17" coveredelements="17" complexity="0" loc="11" ncloc="11" packages="1" files="2" classes="2"/>
+<coverage generated="1625862633995" clover="3.2.0">
+  <project timestamp="1625862633995" name="All files">
+    <metrics statements="25" coveredstatements="25" conditionals="16" coveredconditionals="16" methods="3" coveredmethods="3" elements="44" coveredelements="44" complexity="0" loc="25" ncloc="25" packages="1" files="3" classes="3"/>
     <file name="cloneArray.js" path="C:\Users\HP\Desktop\one-percent-better\testing-101\arrays\cloneArray.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
@@ -18,6 +18,23 @@
       <line num="18" count="5" type="stmt"/>
       <line num="21" count="1" type="stmt"/>
       <line num="25" count="1" type="stmt"/>
+    </file>
+    <file name="countingChickens.js" path="C:\Users\HP\Desktop\one-percent-better\testing-101\arrays\countingChickens.js">
+      <metrics statements="14" coveredstatements="14" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="8" type="stmt"/>
+      <line num="19" count="8" type="stmt"/>
+      <line num="20" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="7" type="cond" truecount="4" falsecount="0"/>
+      <line num="24" count="6" type="stmt"/>
+      <line num="26" count="9" type="cond" truecount="4" falsecount="0"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="28" count="2" type="stmt"/>
+      <line num="32" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="33" count="4" type="stmt"/>
+      <line num="35" count="3" type="stmt"/>
+      <line num="39" count="6" type="stmt"/>
+      <line num="44" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
