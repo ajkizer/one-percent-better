@@ -13,8 +13,7 @@ When they disagree completely, he gets 0 points.
 //Ex: correctness(['M', '?', 'M'], ['M', 'F', '?']) => 2 pts (first item is correct, 2nd item disagreement but "?", third item disagreement but "?".  1 + 0.5 + 0.5 = 2)
 
 
-
-const correctNess = (guesses, expected) => {
+const correctness = (guesses, expected) => {
     let points = 0;
     const guessOptions = ["M", "F", "?"]
     
@@ -25,14 +24,13 @@ const correctNess = (guesses, expected) => {
     for(let i = 0; i < guesses.length; i++){
 
         if(!guessOptions.includes(guesses[i]) || !guessOptions.includes(expected[i])){
-            points = 0;
-            break
+           continue
         }
 
 
         if(guesses[i] === expected[i]){
             points++
-        } else {
+        } else if (guesses[i] === "?" || expected[i] === "?"){
             points += 0.5
         } 
     }
@@ -41,5 +39,4 @@ const correctNess = (guesses, expected) => {
 
 }
 
-
-module.exports = correctNess;
+module.exports = correctness;
