@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1625851746645" clover="3.2.0">
-  <project timestamp="1625851746645" name="All files">
-    <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="4" coveredelements="4" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1"/>
+<coverage generated="1625859691795" clover="3.2.0">
+  <project timestamp="1625859691796" name="All files">
+    <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="17" coveredelements="17" complexity="0" loc="11" ncloc="11" packages="1" files="2" classes="2"/>
     <file name="cloneArray.js" path="C:\Users\HP\Desktop\one-percent-better\testing-101\arrays\cloneArray.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="2" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
+    </file>
+    <file name="countByX.js" path="C:\Users\HP\Desktop\one-percent-better\testing-101\arrays\countByX.js">
+      <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="13" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="5" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
